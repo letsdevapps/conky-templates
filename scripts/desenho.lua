@@ -19,6 +19,7 @@ function conky_desenho()
 
     local cr = cairo_create(cs)
 
+    -- Retângulo vermelho
     cairo_set_source_rgba(cr, 1, 0, 0, 1)
     cairo_rectangle(cr, 50, 50, 150, 80)
     cairo_fill(cr)
